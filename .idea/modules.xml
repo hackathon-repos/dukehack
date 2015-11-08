@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ParseLoginSampleWithDispatchActivity/ParseLoginSampleWithDispatchActivity.iml" filepath="$PROJECT_DIR$/ParseLoginSampleWithDispatchActivity/ParseLoginSampleWithDispatchActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParseUI-Login/ParseUI-Login.iml" filepath="$PROJECT_DIR$/ParseUI-Login/ParseUI-Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParseUI-Widget/ParseUI-Widget.iml" filepath="$PROJECT_DIR$/ParseUI-Widget/ParseUI-Widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dukehack.iml" filepath="$PROJECT_DIR$/dukehack.iml" />
+    </modules>
+  </component>
+</project>

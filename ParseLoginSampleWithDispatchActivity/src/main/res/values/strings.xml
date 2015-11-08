@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please put your application's app ID and keys here -->
+    <string name="parse_app_id">uuL5IM0nBFerIj96nlAYmnW69WaK6Ri5ik5Tj7Ek</string>
+    <string name="parse_client_key">dKZKL9gouVlUa5zc6YyN0T6puhukLEnMDBhQA9K6</string>
+
+    <string name="app_name">Parse Login Sample With Dispatch Activity</string>
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">You are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+
+</resources>

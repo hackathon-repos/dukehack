@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/IBM_ADMIN/AndroidStudioProjects/dukehack/ParseStarterProject/src/main/res/values-w820dp/colors.xml -->
+    <eat-comment/>
+    <color name="green">#10b4a5</color>
+    <color name="orange">#ff8c6a</color>
+    <color name="pink">#ff4284</color>
+    <color name="purple">#7c57e4</color>
+    <color name="saffron">#F4B63E</color>
+    <color name="sienna">#EB6460</color>
+    <!-- From: file:/C:/Users/IBM_ADMIN/AndroidStudioProjects/dukehack/ParseStarterProject/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <string name="parse_app_id">uuL5IM0nBFerIj96nlAYmnW69WaK6Ri5ik5Tj7Ek</string>
+    <string name="parse_client_key">dKZKL9gouVlUa5zc6YyN0T6puhukLEnMDBhQA9K6</string>
+
+    <string name="app_name">DukeHack</string>
+
+    <string name="hello_world">Hello Duke</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">You are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+</resources>
