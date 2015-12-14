@@ -22,6 +22,7 @@ import com.parse.GetCallback;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParsePush;
 import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
@@ -45,6 +46,7 @@ public class SponsorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sponsors);
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
+        ParsePush.subscribeInBackground("Giants");
 
         final ListView sponsors = (ListView) findViewById(R.id.sponsors);
 
@@ -60,7 +62,7 @@ public class SponsorsActivity extends AppCompatActivity {
         });
 
         ImageView icon = new ImageView(this);
-        icon.setImageResource(R.drawable.pussy);
+        icon.setImageResource(R.drawable.cat49);
 
         FloatingActionButton actionButton = new FloatingActionButton.Builder(this)
                 .setContentView(icon)
@@ -70,22 +72,22 @@ public class SponsorsActivity extends AppCompatActivity {
         SubActionButton.Builder itemBuilder = new SubActionButton.Builder(this);
         // repeat many times:
         ImageView itemIcon1 = new ImageView(this);
-        itemIcon1.setImageResource(R.drawable.ic_place_black_24dp);
+        itemIcon1.setImageResource(R.drawable.giftshop);
         SubActionButton button1 = itemBuilder.setContentView(itemIcon1).build();
         ImageView itemIcon2 = new ImageView(this);
-        itemIcon2.setImageResource(R.drawable.ic_favorite_black_24dp);
+        itemIcon2.setImageResource(R.drawable.qr7);
         SubActionButton button2 = itemBuilder.setContentView(itemIcon2).build();
         ImageView itemIcon3 = new ImageView(this);
-        itemIcon3.setImageResource(R.drawable.ic_card_giftcard_black_24dp);
+        itemIcon3.setImageResource(R.drawable.box2);
         SubActionButton button3 = itemBuilder.setContentView(itemIcon3).build();
         ImageView itemIcon4 = new ImageView(this);
-        itemIcon4.setImageResource(R.drawable.abc_ic_go_search_api_mtrl_alpha);
+        itemIcon4.setImageResource(R.drawable.exit);
         SubActionButton button4 = itemBuilder.setContentView(itemIcon4).build();
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(SponsorsActivity.this,MapActivity.class);
+                Intent intent=new Intent(SponsorsActivity.this,GoogleMapsActivity.class);
                 startActivity(intent);
             }
         });

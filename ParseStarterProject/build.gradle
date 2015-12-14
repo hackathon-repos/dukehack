@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.parse'
 
 buildscript {
-  repositories {
-    mavenCentral()
-    maven { url 'https://maven.parse.com/repo' }
-  }
-  dependencies {
-    classpath 'com.parse.tools:gradle:1.+'
-  }
+    repositories {
+        mavenCentral()
+        maven { url 'https://maven.parse.com/repo' }
+    }
+    dependencies {
+        classpath 'com.parse.tools:gradle:1.+'
+    }
 }
 
 android {
@@ -40,16 +40,17 @@ dependencies {
     // compile 'com.facebook.android:facebook-android-sdk:4.6.0'
     // compile 'com.parse:parsefacebookutils-v4-android:1.10.3@aar'
 
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:design:23.1.0'
+    //list
+    //menu
 
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.0'
     compile 'com.parse.bolts:bolts-android:1.2.1'
     compile 'com.parse:parse-android:1.10.3'
-    compile 'com.yalantis:flipviewpager:1.0.0'                      //list
-    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'          //menu
+    compile 'com.yalantis:flipviewpager:1.0.0'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
     compile 'me.dm7.barcodescanner:zbar:1.8.3'
-
-    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.google.android.gms:play-services:8.3.0'
     compile 'com.google.android.gms:play-services-maps:8.1.0'
 }
 /* Uncomment if you enable ProGuard and you want to automatically upload symbols on build.
